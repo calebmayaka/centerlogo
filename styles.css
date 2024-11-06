@@ -1,0 +1,54 @@
+*{
+    background-color: white;
+    box-sizing:border-box;
+    height: 100vh;
+    text-decoration: none;
+    /* overflow-y: hidden; */
+}
+
+.flexc{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 6px; */
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.flexc div a{
+    color:black;
+    font-family: sans-serif;
+    padding:6px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition: 0.3s ease;
+    cursor:pointer;
+}
+
+.flexc div a:hover{
+    color:brown;
+    transform: scale(1.2);
+    border-bottom: brown 2px solid;
+}
+
+.contact{
+    padding-left: 10px;
+    
+}
+
+.logoimage{
+    position: absolute;
+    height: 50px;
+    width: auto;
+    top: 1%;
+    left: 50%;
+}
+
+.background{
+    position: absolute;
+    width: 220vh;
+    top: 12%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
