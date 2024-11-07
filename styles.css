@@ -3,7 +3,7 @@
     box-sizing:border-box;
     height: 100vh;
     text-decoration: none;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 
 .flexc{
@@ -28,6 +28,7 @@
     color:brown;
     transform: scale(1.2);
     border-bottom: brown 2px solid;
+    box-shadow: 0 0 25px 0;
 }
 
 .contact{
@@ -51,4 +52,24 @@
     margin-right: 15px;
 }
 
+.middlebutton{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    cursor: pointer;
+    padding-top: 4px;
+    border: solid 3px white;
+    color:brown;
+    border-radius: 2rem;
+}
+
+.middlebutton:hover{
+    color:rgb(0, 215, 253);
+    transform: scale(1.2);
+    box-shadow: 0 0 25px 0;
+}
 
